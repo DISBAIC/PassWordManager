@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
+using Wpf.Ui.Controls;
 using static System.Net.Mime.MediaTypeNames;
+using Button = Wpf.Ui.Controls.Button;
 
 namespace PassWordManager
 {
@@ -414,6 +417,22 @@ namespace PassWordManager
                button.Background = new SolidColorBrush(Colors.White);
                button.Foreground = new SolidColorBrush(Colors.Black);
             }
+        }
+
+        private void ExtraLength_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
+
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as HyperlinkButton;
+            var url = button.NavigateUri.ToString();
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = url,
+                UseShellExecute = true
+            });
         }
     }
 }

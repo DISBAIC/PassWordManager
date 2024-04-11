@@ -1,12 +1,16 @@
 A simple PassWordManager made with WPF UI ,writing by Csharp.
 The reason why I develop it is some people are constantly trying to log in my Microsoft account,
-even them have log in my account successfully ,my verification email was almost changed.
+even successfully logged into my account.
+I have realized that the security of my password is poor;
 The Authenticator has remind me and I have prevented that.
 So,I develop this appliaction to deal with that.
 
+This appliaction won't save any password.It is a password generating tool.
+It works with some informations,Just like the website name,or a number you will never forget.
+
 The password are not part of the log file ,each encrypted record was writed with JSON format.
 The full log with contain the checksum(checkint) and other information.
-The simple log only contained the cricuit information to help you to generate it again.
+The simple log only contained the critical information to help you to generate it again.
 
 The log file path : ../Logs/PDELog.Json
 The defaut original password is "password";

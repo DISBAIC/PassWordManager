@@ -1,4 +1,4 @@
-A simple PassWordManager made with WPF UI ,writing by Csharp.
+A simple PassWordManager ,writing by Csharp, made with WPF UI.
 The reason why I develop it is some people are constantly trying to log in my Microsoft account,
 even successfully logged into my account.
 The Authenticator has remind me and I have prevented that.
@@ -8,7 +8,7 @@ So,I develop this appliaction to deal with that.
 This appliaction won't save any password.It is a password generating tool.
 It works with some informations,Just like the website name,or a number you will never forget.
 
-The password are not part of the log file ,each encrypted record was writed with JSON format.
+The password are not part of the log file ,each encryption record was writed with JSON format.
 The full log with contain the checksum(checkint) and other information.
 The simple log only contained the critical information to help you to generate it again.
 

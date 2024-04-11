@@ -1,8 +1,8 @@
 A simple PassWordManager made with WPF UI ,writing by Csharp.
 The reason why I develop it is some people are constantly trying to log in my Microsoft account,
 even successfully logged into my account.
-I have realized that the security of my password is poor;
 The Authenticator has remind me and I have prevented that.
+I have realized that the security of my password is poor;
 So,I develop this appliaction to deal with that.
 
 This appliaction won't save any password.It is a password generating tool.

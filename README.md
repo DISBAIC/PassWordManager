@@ -20,4 +20,5 @@ The silder is used to increase security in scenarios where password length is no
 Each level will increase by four digits in length.
 
 My next plan is to make this appliaction to a browser extension.
+
 [WPF UI](https://wpfui.lepo.co/)
